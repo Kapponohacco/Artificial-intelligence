@@ -1,5 +1,6 @@
 import random
 
+
 def create_nonogram_info(x, y, row_patterns, col_patterns):
     board = [random.getrandbits(y) for _ in range(x)]
 
